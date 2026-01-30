@@ -114,6 +114,46 @@
       "duration": 15,
       "status": "DONE",
       "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "68fff5a6-dd71-42a8-ace8-fcdf705c6e37",
+      "type": "commitless",
+      "name": "gitignore",
+      "description": "fixer probleme avec le .gitignore",
+      "date": "2026-01-30T07:45:00.000Z",
+      "duration": 7,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "ed73a9b3-fa97-4205-a626-d83c8fd9b197",
+      "type": "commitless",
+      "name": "Setup db",
+      "description": "créer la DB avec docker",
+      "date": "2026-01-30T09:05",
+      "duration": 20,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "cfffb490-bf3f-4d34-9346-b938e12c274a",
+      "type": "commitless",
+      "name": "feat(MCD): remade mcd",
+      "description": "",
+      "date": "2026-01-30T09:05:00.000Z",
+      "duration": 45,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "53cdc83e-306e-416c-a217-a9a63db57f9a",
+      "type": "commitless",
+      "name": "feat(data): added ai generated data",
+      "description": "",
+      "date": "2026-01-30T10:17",
+      "duration": 15,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
     }
   ]
 }
