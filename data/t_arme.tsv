@@ -1,0 +1,16 @@
+arme_id	description	prix	puissance	cartouches	nom	type
+1	Fusil d'assaut standard	1200	75	30	AK-Fury	Fusil
+2	Pistolet de base	350	35	15	Desert Eagle	Pistolet
+3	Fusil de sniper longue portée	2500	150	5	Arctic Wolf	Sniper
+4	Mitrailleuse lourde	3200	65	100	Thunder MG	Mitrailleuse
+5	Fusil à pompe tactique	850	120	8	Striker 12	Fusil à pompe
+6	Pistolet mitrailleur compact	950	50	25	Venom SMG	SMG
+7	Lance-roquettes	5000	300	1	Titan RPG	Explosif
+8	Fusil d'assaut amélioré	1800	90	30	M4 Predator	Fusil
+9	Revolver puissant	600	80	6	Magnum 357	Pistolet
+10	Arbalète silencieuse	1100	95	1	Shadow Bow	Arbalète
+11	Fusil plasma	4500	200	20	Plasma Rifle	Énergétique
+12	Grenade EMP	800	0	3	EMP Blast	Gadget
+13	Fusil de précision	2200	140	10	Marksman SR	Sniper
+14	Katana énergétique	3500	180	0	Cyber Blade	Mêlée
+15	Lance-flammes	2800	110	50	Inferno	Spécial
