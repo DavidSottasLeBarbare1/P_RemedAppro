@@ -1,0 +1,119 @@
+{
+  "repoUrl": "https://github.com/DavidSottasLeBarbare1/P_RemedAppro",
+  "projectName": "P_Remed-JDT",
+  "branch": "main",
+  "me": "DavidSottasLeBarbare1",
+  "journalStartDate": null,
+  "exceptions": [
+    {
+      "id": "858d530b-24bf-464d-aec1-cc90dfeebd9a",
+      "type": "commitless",
+      "name": "feat(MCD, gitignore): added the .loo file and the gitignore",
+      "description": "",
+      "date": "2026-01-16T11:10",
+      "duration": 5,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "0efcc032-1eee-46ee-9fcb-618e83105c12",
+      "type": "commitless",
+      "name": "feat(doc): added the doc folder with the CDC",
+      "description": "",
+      "date": "2026-01-16T11:15",
+      "duration": 5,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "f7359e91-cf6f-44a4-960f-8c56b186b440",
+      "type": "commitless",
+      "name": "Cahier des charges",
+      "description": "J'ai rédiger mon cahier des charges de ce projet",
+      "date": "2026-01-16T10:50",
+      "duration": 155,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "38201a19-0a2a-44dd-aa99-178c1dd3cc15",
+      "type": "commitless",
+      "name": "Commencer un jdt",
+      "description": "J'ai commencé un journal de travail excel",
+      "date": "2026-01-16T11:05",
+      "duration": 15,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "e2a4fc7f-9eb3-41c0-a800-33b38bfe4ee8",
+      "type": "commitless",
+      "name": "Lire le cdc de space invaders",
+      "description": "J'ai lu le cdc de space invaders afin de définir quelle tables je dois créer",
+      "date": "2026-01-16T11:25",
+      "duration": 10,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "b7f4c964-d24e-40bd-b6f0-4c96e6476cc7",
+      "type": "commitless",
+      "name": "Lire le cdc space invaders",
+      "description": "J'ai continué à lire le cdc space invaders tout en prenant bien en compte quelle tables je dois créer",
+      "date": "2026-01-23T08:55",
+      "duration": 55,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "2af9e318-0533-4ebc-8620-5aa32e95c4af",
+      "type": "commitless",
+      "name": "Créer le MCD",
+      "description": "J'ai fait les bonnes tables du MCD dans looping",
+      "date": "2026-01-23T09:35",
+      "duration": 38,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "6289d0aa-919a-4fa9-9768-d3a199151230",
+      "type": "commitless",
+      "name": "Créer le MCD",
+      "description": "J'ai défini les cardinalités du MCD ",
+      "date": "2026-01-23T10:21",
+      "duration": 31,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "089f4601-59dd-4c98-a9c3-d428cd6f21ae",
+      "type": "commitless",
+      "name": "Setup le gitjournal",
+      "description": "J'ai décidé de changer de JDT et d'utiliser GitJournal à place d'excel, mais j'y aie mis beaucoup trop de temps à essayer de fixer un problème ",
+      "date": "2026-01-23T11:24",
+      "duration": 63,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "7b9b5953-3b86-457d-8be3-69e94bdb812f",
+      "type": "commitless",
+      "name": "Setup de GitJournal",
+      "description": "J'ai fini de setup le GitJournal en créant un nouveau token github car l'ancien ne marchait pas",
+      "date": "2026-01-30T08:22",
+      "duration": 22,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    },
+    {
+      "id": "b905767c-755e-4bfd-bf8e-c764b8b607e4",
+      "type": "commitless",
+      "name": "JDT",
+      "description": "J'ai rempli les anciens jours du JDT",
+      "date": "2026-01-30T08:38",
+      "duration": 15,
+      "status": "DONE",
+      "author": "DavidSottasLeBarbare1"
+    }
+  ]
+}
