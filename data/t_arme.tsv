@@ -14,3 +14,93 @@ arme_id	description	prix	puissance	cartouches	nom	type
 13	Fusil de précision	2200	140	10	Marksman SR	Sniper
 14	Katana énergétique	3500	180	0	Cyber Blade	Mêlée
 15	Lance-flammes	2800	110	50	Inferno	Spécial
+16	Fusil d'assaut lourd	1500	80	30	Heavy AR-15	Fusil
+17	Pistolet automatique	420	40	17	Glock 19	Pistolet
+18	Fusil Barrett anti-matériel	4200	180	3	Barrett M82	Sniper
+19	Mitrailleuse rotative	4800	70	200	Minigun	Mitrailleuse
+20	Fusil à pompe double canon	1100	140	2	Double Barrel	Fusil à pompe
+21	SMG compact	780	45	30	MP5K	SMG
+22	Lance-grenades	3800	250	6	M79 Thumper	Explosif
+23	Fusil d'assaut tactique	2100	95	30	SCAR-H	Fusil
+24	Revolver magnifique	850	90	6	Peacekeeper	Pistolet
+25	Arbalète explosive	1800	120	1	Explosive Bow	Arbalète
+26	Canon plasma lourd	6500	280	15	Heavy Plasma	Énergétique
+27	Grenade fumigène	250	0	5	Smoke Grenade	Gadget
+28	Fusil de chasse	2900	165	8	Hunting Rifle	Sniper
+29	Épée laser	4200	200	0	Light Saber	Mêlée
+30	Brûleur cryogénique	3300	100	60	Cryo Freeze	Spécial
+31	Fusil burst	1350	78	30	Burst Rifle	Fusil
+32	Pistolet silencieux	480	38	12	Silenced P226	Pistolet
+33	Fusil sniper léger	1900	135	8	Scout Sniper	Sniper
+34	Gatling laser	5200	75	300	Laser Gatling	Mitrailleuse
+35	Fusil à pompe automatique	1450	125	10	Auto Shotgun	Fusil à pompe
+36	Uzi modifié	880	48	32	Modified Uzi	SMG
+37	Bazooka	4500	280	2	Bazooka	Explosif
+38	Fusil de combat	1650	85	30	Combat Rifle	Fusil
+39	Pistolet lourd	720	75	8	Heavy Pistol	Pistolet
+40	Arbalète à répétition	2200	105	5	Repeater Bow	Arbalète
+41	Fusil à impulsions	5800	220	25	Pulse Rifle	Énergétique
+42	Mine explosive	1200	0	1	Explosive Mine	Gadget
+43	Fusil AMR	3400	170	6	AMR Sniper	Sniper
+44	Hache énergétique	3800	190	0	Energy Axe	Mêlée
+45	Lanceur acide	3100	115	45	Acid Launcher	Spécial
+46	Carabine militaire	1250	77	30	Military Carbine	Fusil
+47	Pistolet rafale	580	42	20	Burst Pistol	Pistolet
+48	Fusil de guerre	3600	175	5	War Sniper	Sniper
+49	Cannon rotatif	5500	80	250	Rotary Cannon	Mitrailleuse
+50	Fusil court	950	115	6	Sawed-off	Fusil à pompe
+51	Thompson	1050	52	50	Tommy Gun	SMG
+52	Lance-missiles	6200	320	3	Missile Launcher	Explosif
+53	Fusil rail	2400	100	25	Railgun Rifle	Fusil
+54	Pistolet taser	380	20	10	Taser Gun	Pistolet
+55	Arc composite	1600	110	1	Composite Bow	Arbalète
+56	Désintégrateur	7200	300	10	Disintegrator	Énergétique
+57	Grenade incendiaire	950	0	4	Fire Grenade	Gadget
+58	Fusil dragunov	2700	155	10	Dragunov SVD	Sniper
+59	Lance énergétique	4100	195	0	Energy Lance	Mêlée
+60	Lanceur tesla	3600	120	40	Tesla Launcher	Spécial
+61	Fusil FAMAS	1400	82	30	FAMAS	Fusil
+62	Beretta	390	36	15	Beretta M9	Pistolet
+63	Fusil VSS	2100	145	20	VSS Vintorez	Sniper
+64	Vulcan cannon	6800	85	500	Vulcan M61	Mitrailleuse
+65	Fusil SPAS	1300	130	8	SPAS-12	Fusil à pompe
+66	Vector	1100	55	25	Kriss Vector	SMG
+67	RPG-7	4800	290	2	RPG-7	Explosif
+68	Fusil G36	1900	88	30	G36C	Fusil
+69	Colt 45	550	70	7	Colt M1911	Pistolet
+70	Arbalète moderne	1350	100	1	Modern Bow	Arbalète
+71	Fusil ionique	5100	210	22	Ion Rifle	Énergétique
+72	Bombe collante	1400	0	2	Sticky Bomb	Gadget
+73	Fusil Intervention	3100	160	7	Intervention	Sniper
+74	Marteau guerre	3600	185	0	War Hammer	Mêlée
+75	Lanceur toxique	2900	105	55	Toxic Launcher	Spécial
+76	Fusil TAR-21	1550	83	30	TAR-21	Fusil
+77	Pistolet compact	320	32	12	Compact Pistol	Pistolet
+78	Fusil CheyTac	3900	185	4	CheyTac M200	Sniper
+79	Minigun électrique	6100	72	350	Electric Minigun	Mitrailleuse
+80	Fusil Benelli	1200	122	7	Benelli M4	Fusil à pompe
+81	P90	1250	58	50	P90	SMG
+82	Javelin	7500	340	1	Javelin Missile	Explosif
+83	Fusil Steyr	2000	92	30	Steyr AUG	Fusil
+84	Python 357	780	85	6	Colt Python	Pistolet
+85	Arbalète lourde	1950	125	1	Heavy Crossbow	Arbalète
+86	Fusil photon	6200	240	18	Photon Rifle	Énergétique
+87	Claymore	900	0	1	Claymore Mine	Gadget
+88	Fusil AS50	3700	178	5	AS50 Sniper	Sniper
+89	Faux énergétique	4300	205	0	Energy Scythe	Mêlée
+90	Lanceur magnétique	3400	125	48	Mag Launcher	Spécial
+91	Fusil HK416	1700	86	30	HK416	Fusil
+92	Pistolet FN	450	39	16	FN Five-Seven	Pistolet
+93	Fusil M24	2600	152	9	M24 SWS	Sniper
+94	Gatling lourd	5900	78	400	Heavy Gatling	Mitrailleuse
+95	Fusil KSG	1380	128	14	KSG Shotgun	Fusil à pompe
+96	Skorpion	820	46	20	Skorpion EVO	SMG
+97	SMAW	5300	295	2	SMAW Launcher	Explosif
+98	Fusil AN-94	1820	89	30	AN-94	Fusil
+99	Desert Eagle Gold	890	88	7	Gold Deagle	Pistolet
+100	Arbalète furtive	1480	98	1	Stealth Bow	Arbalète
+101	Fusil quasar	6900	260	20	Quasar Rifle	Énergétique
+102	Mine laser	1650	0	1	Laser Mine	Gadget
+103	Fusil AWP	4100	190	5	AWP Dragon Lore	Sniper
+104	Halbarde plasma	4600	210	0	Plasma Halberd	Mêlée
+105	Lanceur graviton	3850	130	42	Graviton Gun	Spécial
