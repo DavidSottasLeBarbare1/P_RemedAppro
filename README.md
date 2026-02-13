@@ -36,7 +36,7 @@ Le script `LoadData.sql` trouvé dans src/scripts dois également être déplace
 Pour se connecter en autorisant le local :
 
 ```bash
-mysql --local-infile -u user -ppassword
+mysql --local-infile -u <Nom utilisateur> -p<Mot de passe>
 ```
 
 Pour éxecuter le fichier : 
@@ -51,14 +51,24 @@ Afin de sauvergarder la base de données, un mysqldump est utilisé. Celle-ci se
 Pour parvenir à ce résultat, il faut effectuer, dans le terminal docker, cette commande: 
 
 ```bash
-mysqldump -u root -proot db_space_invaders > db_space_invaders_backup.sql
+mysqldump -u <Nom utilisateur> -p<Mot de passe> db_space_invaders > db_space_invaders_backup.sql
 ```
+
+`mysqldump` permet d'exporter la DB
+`-u <Nom utilisateur>` et `-p<Mot de passe>` sont les crédentials
+`db_space_invaders` est la base de donnée qui va être sauvegarder
+`> db_space_invaders_backup.sql` est le fichier dans lequel va être sauvegarder la DB
 
 Quant à la restauration de la base de données, il faut avoir le fichier `db_space_invaders_backup.sql` et effectuer, dans le terminal docker, cette commande :
 
 ```bash
-mysql -u root -p db_space_invaders < db_space_invaders_backup.sql
+mysql -u <Nom utilisateur> -p db_space_invaders < db_space_invaders_backup.sql
 ```
+
+`mysql` permet de restaurer une DB
+`-u <Nom utilisateur>` et `-p<Mot de passe>` sont les crédentials
+`db_space_invaders` est la base de donnée qui va être restaurée
+`< db_space_invaders_backup.sql` est le fichier depuis lequel va être restaurée la DB
 
 ## Selects
 
@@ -210,3 +220,6 @@ SOURCE /scripts/CreateUsersRoles.sql;
 * **L'Admin (`admin1`)** : Il a toutes les permissions sur la base de données du jeu et possède les droits d'administration serveur.
 * **Le Joueur (`joueur2`)** : Il a un profil limité. Il peut voir les armes disponibles et passer des commandes (insérer dans `t_commande` et `contenir`), mais ne peut rien modifier ni supprimer.
 * **Le Gestionnaire (`gestionnaire3`)** : Il gère principalement l'inventaire des armes (Controle complet sur `t_arme`), mais ne peut que consulter les joueurs et les commandes sans pouvoir les modifier.
+
+### AI
+L'IA a été utiliser dans ce projet pour seul buts de générer les données, corriger les fautes d'orthographe dans le rapport et clarifier les message d'erreur.
