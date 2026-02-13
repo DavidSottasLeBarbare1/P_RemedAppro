@@ -177,7 +177,7 @@ HAVING COUNT(DISTINCT co.arme_fk) > 3;
 
 ## Index
 
-Dans la solutions, des index on été automatiquement crée pour chaque clé primaire afin de garantir l'unicité et accélérer l'accès à ces clés.
+Dans la solutions, des index on été automatiquement crée pour chaque clé primaire afin de garantir l'unicité et accélérer l'accès à ces clés. Dans l'exemple, l'ajout de cet index sur joueur_fk nous permet d'obtenir les même avantages.
 
 Pour ajouter un index manuellement dans par exemple `joueur_fk` de `t_commande`, il faut effectuer :
 
@@ -185,6 +185,11 @@ Pour ajouter un index manuellement dans par exemple `joueur_fk` de `t_commande`,
 CREATE INDEX idx_commande_joueur ON t_commande (joueur_fk);
 ```
 
+Un index "idx_commande_joueur" étant déjà présent dans la table t_commande, le CREATE INDEX ci-dessus retournera :
+
+```sql
+Duplicate key name 'idx_commande_joueur'
+```
 ## Uilisateurs et rôles
 
 Le script `CreateUsersRoles.sql` trouvé dans src/scripts dois être déplacer dans le dossier scripts de docker. Il est ensuite éxecutable en effectuant, dans le terminal docker, la commande :
@@ -194,11 +199,13 @@ SOURCE /scripts/CreateUsersRoles.sql;
 ```
 
 ### Tableau des utilisateurs et rôles
-| Utilisateur| Rôle| Tables |Permissions|
+| Utilisateur | Rôle | Tables | Permissions |
 | :--- | :--- | :--- | :--- |
-| **`admin1@localhost`** | `admin` |`*.*`| **ALL PRIVILEGES** |
-| **`joueur2@localhost`** | `joueur` | `t_arme`<br><br>`t_commande`<br>`contenir` | **SELECT**<br><br><br>**INSERT, SELECT**<br><br>|
-| **`gestionnaire3@localhost`** | `gestionnaire` | `t_arme`<br><br>`t_joueur`<br>`t_commande`<br>`contenir` | **SELECT, INSERT, UPDATE, DELETE**<br><br><br>**SELECT**<br><br>|
+| **`admin1@localhost`** | `admin` | `*.*` | **ALL PRIVILEGES** |
+| **`joueur2@localhost`** | `joueur` | `t_arme` | **SELECT** |
+| **`joueur2@localhost`** | `joueur` | `t_commande`<br>`contenir` | **INSERT, SELECT** |
+| **`gestionnaire3@localhost`** | `gestionnaire` | `t_arme` | **SELECT, INSERT, UPDATE, DELETE** |
+| **`gestionnaire3@localhost`** | `gestionnaire` | `t_joueur`<br>`t_commande`<br>`contenir` | **SELECT** |
 
 * **L'Admin (`admin1`)** : Il a toutes les permissions sur la base de données du jeu et possède les droits d'administration serveur.
 * **Le Joueur (`joueur2`)** : Il a un profil limité. Il peut voir les armes disponibles et passer des commandes (insérer dans `t_commande` et `contenir`), mais ne peut rien modifier ni supprimer.
